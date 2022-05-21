@@ -1,0 +1,34 @@
+.your-snippets{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.snippet{
+    border: 1px solid rgb(230, 230, 230);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    max-width: 400px;
+    overflow-y: auto;
+    height: fit-content;
+    background-color: white;
+}
+
+
+.snippet > h4{
+margin-bottom: 5px;
+text-transform: uppercase;
+text-align: center;
+}
+
+.snippet > pre {
+    user-select: text;
+    overflow-x: auto;
+}
